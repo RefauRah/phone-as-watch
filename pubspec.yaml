@@ -1,0 +1,32 @@
+name: phone_as_watch
+description: "Smartwatch-grade health & sensor suite for smartphone hardware using Flutter & DSP"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Sensor & Hardware Access
+  camera: ^0.11.0+2
+  sensors_plus: ^6.1.1
+  wakelock_plus: ^1.2.8
+  permission_handler: ^11.3.1
+  record: ^7.1.2
+
+  # State Management & Utilities
+  provider: ^6.1.2
+  intl: ^0.19.0
+  camera_android: ^0.10.12
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
